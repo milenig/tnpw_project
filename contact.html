@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact | Herbico</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <ul class="ul-left">
+                <li><a href="index.html"><img src="images/logo.png" alt="Logo"></a></li>
+            </ul>
+            <ul class="ul-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="jidelni-listek.html">Jídelni lístek</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="crvena-kocka">
+        <div class="bela-kocka">
+            <div class="kontakt-text">
+                <h2>Kde nás najdete?</h2>
+                <p>Hradecká 1249/6, 500 03 Hradec Králové, Česka republika</p>
+                <p>+420 123 456 789</p>
+            </div>
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=univerzita%20hradec%20kralove%20budova%20j&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Werbung: <a
+                        href="https://www.jetzt-drucken-lassen.de">jetzt-drucken-lassen.de</a></div>
+            </div>
+        </div>
+        <h2 class="contact-h2">Kontaktujte nás</h2>
+        <form id="form" class="topBefore contact-form">
+            <div class="row">
+                <div class="container">
+                    <input id="name" type="text" required>
+                    <label>Váše jméno</label>
+                </div>
+                <div class="container">
+                    <input id="email" type="text" required>
+                    <label>Emailová adresa</label>
+                </div>
+            </div>
+            <div class="container">
+                <textarea id="message" maxlength="300" required></textarea>
+                <label>Zpráva pro nás</label>
+            </div>
+            <!-- <input id="submit" type="submit" value="Odeslat"> -->
+            <button type="submit">Odeslat</button>
+    
+        </form>
+    </div>
+    <footer>
+        <div class="sirina-foot">
+            <div class="flevo">
+                <p>Hradec Králové, Česka republika</p>
+                <p>+420 123 456 789</p>
+                <p>TNPW1 zápočtový projekt | Teodora Vuleta</p>
+            </div>
+            <div class="fdesno">
+                <form id="subscribe">
+                    <input id="email-sub" type="email" placeholder="E-mail address">
+                    <button id="fSubs" class="about-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

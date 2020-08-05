@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home | Herbico</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <ul class="ul-left">
+                <li><a href="index.html"><img src="images/logo.png" alt="Logo"></a></li>
+            </ul>
+            <ul class="ul-right">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="jidelni-listek.html">Jídelni lístek</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="home">
+        <div class="home-txt">
+            <h1>Zdraví v každém produktu</h1>
+            <h5>Bio eshop</h5>
+            <a href="shop.html"><button>Shop Now</button></a>
+        </div>
+        <figure>
+            <img src="images/scroll-mouse.png" alt="scroll down">
+        </figure>
+    </div>
+
+    <h2 class="latest">Naše produkty</h2>
+    <div class="galerija">
+        <div class="produkt">
+            <a href="shop.html">
+                <img src="images/produkt1.png" alt="Kool Ranch">
+                <div>
+                    <p>Kale Chips Kool Ranch</p>
+                    <p class="cena">55,- Kč</p>
+                </div>
+            </a>
+        </div>
+        <div class="produkt">
+            <a href="shop.html">
+                <img src="images/produkt2.png" alt="Zesty Nacho">
+                <div>
+                    <p>Kale Chips Zesty Nacho</p>
+                    <p class="cena">55,- Kč</p>
+                </div>
+            </a>
+        </div>
+        <div class="produkt hidden">
+            <a href="shop.html">
+                <img src="images/produkt3.png" alt="Garlic & Onion">
+                <div>
+                    <p>Kale Chips Garlic & Onion</p>
+                    <p class="cena">55,- Kč</p>
+                </div>
+            </a>
+        </div>
+        <div class="produkt hidden">
+            <a href="shop.html">
+                <img src="images/produkt4.png" alt="Original">
+                <div>
+                    <p>Kale Chips Original</p>
+                    <p class="cena">55,- Kč</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="show_more">
+        <a href="shop.html"><button>Všechny výrobky</button></a>
+    </div>
+    
+    <div class="green-bg">
+        <div class="vice-kontejner">
+            <div class="vice-o-nas">
+                <div class="vice-cen">
+                    <h2>Více o nás</h2>
+                    <h4>&#9830; Nejlepší na trhu &#9830;</h4>
+                    <p>Herbico je prodejna zdravé výživy se sidlem v Hradci Králové. Společnost Herbico má za cíl provadět kvalitní, chytrou a spolehlivou prodejnu zdravé vyživy. Naše vášeň pro dokonalost nás od počátku poháněla a nadále nás vede do budoucnosti. Víme, že se každý výrobek počítá, a snaží se, aby celý nákupní zážitek byl co nejvíce přínosný. Vyzkoušejte to sami!</p>
+                    <a href="contact.html"><button class="about-btn">O nás</button></a>
+                </div>
+            </div>
+            <div class="vice-img">
+                <img src="images/vice-img.jpg" alt="Vice o nas photo">
+            </div>
+        </div>
+    </div>
+    <div class="contact-us">
+        <h3 id="txt-contact">Contact us</h3>
+        <img src="images/contact-us.jpg" alt="Contact us">
+    </div>
+    <form id="form" class="topBefore">
+        <div class="row">
+            <div class="container">
+                <input id="name" type="text" required>
+                <label>Váše jméno</label>
+            </div>
+            <div class="container">
+                <input id="email" type="text" required>
+                <label>Emailová adresa</label>
+            </div>
+        </div>
+        <div class="container">
+            <textarea id="message" maxlength="300" required></textarea>
+            <label>Zpráva pro nás</label>
+        </div>
+        <!-- <input id="submit" type="submit" value="Odeslat"> -->
+        <button type="submit">Odeslat</button>
+
+    </form>
+
+    <blockquote>
+        <p>I'm not a chef. But I'm passionate about food - the tradition of it, cooking it and sharing it.</p>
+    </blockquote>
+    <h2 class="latest">Latest blog posts</h2>
+    <div class="new-post">
+        <div class="blog-post">
+            <a href="#"><img src="images/lasagna.jpg" alt="Lasagna">
+                <p>One Bite Mini Lasagna Roll Ups Recipe</p>
+            </a>
+        </div>
+        <div class="blog-post">
+            <a href="#"><img src="images/november.jpg" alt="Novembar Salat">
+                <p>What to Cook in November</p>
+            </a>
+        </div>
+        <div class="blog-post">
+            <a href="#"><img src="images/buns.jpg" alt="Miffy Hot Cross Buns">
+                <p>Miffy Hot Cross Buns</p>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <div class="sirina-foot">
+            <div class="flevo">
+                <p>Hradec Králové, Česka republika</p>
+                <p>+420 123 456 789</p>
+                <p>TNPW1 zápočtový projekt | 2017</p>
+            </div>
+            <div class="fdesno">
+                <form id="subscribe">
+                    <input id="email-sub" type="email" placeholder="E-mail address">
+                    <button id="fSubs" class="about-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
