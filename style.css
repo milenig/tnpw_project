@@ -1330,3 +1330,42 @@ table td {
     width: auto;
   }
 }
+
+.github{
+  background-color: whitesmoke;
+  position: fixed;
+  min-width: 200px;
+  bottom: 30px;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  justify-items: center;
+  align-items: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+  transition: all 0.2s;
+  animation: popup 2s forwards;
+}
+
+@keyframes popup {
+  0%{
+    bottom: -120px;
+  }
+  100%{
+    bottom: 30px;
+  }
+}
+
+.github:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.35);
+  padding: 9px 18px;
+}
+
+.github img{
+  margin-left: 30px;
+  width: 30px;
+}
